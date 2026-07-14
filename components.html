@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components | GasSafe IoT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🛡️ GasSafe IoT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="how-it-works.html">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link active" href="components.html">Components</a></li>
+            <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="documentation.html">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container py-5">
+      <div class="section-heading text-center mb-5">
+        <span class="text-primary fw-bold">Core Components</span>
+        <h1 class="fw-bold">The hardware stack behind the safety system</h1>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Gas sensor module" />
+            <h4 class="fw-bold">MQ-6 Gas Sensor</h4>
+            <p class="text-muted">Detects LPG and other combustible gases with high sensitivity.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Microcontroller board" />
+            <h4 class="fw-bold">Microcontroller</h4>
+            <p class="text-muted">Processes input values and controls the response sequence in real time.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Alarm buzzer and indicator lights" />
+            <h4 class="fw-bold">Buzzer & LED</h4>
+            <p class="text-muted">Provides audible and visual alerts once a leak is detected.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Automatic shutoff relay and valve" />
+            <h4 class="fw-bold">Relay / Valve</h4>
+            <p class="text-muted">Cuts off the supply line or engages a shutdown protocol.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Wireless communication module" />
+            <h4 class="fw-bold">Wi-Fi / GSM Unit</h4>
+            <p class="text-muted">Supports network communication for remote monitoring and messaging.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 shadow-sm p-4 h-100">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded-3 mb-3 component-image" alt="Dashboard interface displaying sensor data" />
+            <h4 class="fw-bold">Dashboard Interface</h4>
+            <p class="text-muted">Displays gas trends, warnings, and system status in an easy-to-read layout.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-5 py-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">© 2026 GasSafe IoT. Built with reliable sensor and control components.</p>
+        <div class="d-flex gap-3">
+          <a href="index.html">Home</a>
+          <a href="documentation.html">Docs</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

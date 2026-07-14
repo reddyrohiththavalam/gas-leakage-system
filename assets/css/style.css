@@ -1,0 +1,94 @@
+:root {
+  --primary: #1f6feb;
+  --primary-dark: #0b3d91;
+  --accent: #19b37d;
+  --bg: #f7fbff;
+  --text: #1f2d3d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--primary-dark), var(--primary));
+}
+
+.navbar-brand,
+.nav-link {
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  opacity: 0.85;
+}
+
+.hero-section {
+  background: radial-gradient(circle at top right, rgba(25, 179, 125, 0.18), transparent 35%), linear-gradient(120deg, #eef8ff 0%, #f8fffc 100%);
+}
+
+.hero-card,
+.card,
+.info-card,
+.feature-card {
+  animation: fadeUp 0.7s ease both;
+}
+
+.hero-card {
+  background: white;
+  border: 1px solid rgba(31, 111, 235, 0.12);
+}
+
+.mini-stat {
+  background: linear-gradient(135deg, #f4faff, #ecfff8);
+}
+
+.footer {
+  background: #0d243f;
+  color: #eaf4ff;
+}
+
+.footer a {
+  color: #d4eeff;
+  text-decoration: none;
+}
+
+.feature-icon {
+  font-size: 2rem;
+}
+
+.section-heading {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero-image,
+.about-image,
+.component-image {
+  height: 220px;
+  object-fit: cover;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
